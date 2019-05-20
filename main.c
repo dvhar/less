@@ -59,7 +59,7 @@ extern int	missing_cap;
 extern int	know_dumb;
 extern int	pr_type;
 extern int	quit_if_one_screen;
-int save_line_num; /* Echo line number when exiting */
+int save_line_num; /* Save line number when exiting */
 
 
 /*
@@ -418,13 +418,13 @@ quit(status)
 #endif
 	close_getchr();
 
-	//save current line number when exiting if that option is set
-	if (save_line_num){
-        char * linepath = getenv("LESS_LINENUM");
-        FILE * linefile = fopen(linepath,"w");
+	//save current line number when exiting if -l and env variable
+	char * linepath = getenv("LESS_LINENUM");
+	if (save_line_num && linepath){
+		FILE * linefile = fopen(linepath,"w");
 		fprintf(linefile, "%d\n", (int)currline(0));
-        fclose(linefile);
-    }
+		fclose(linefile);
+	}
 
 	exit(status);
 }

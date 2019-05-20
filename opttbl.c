@@ -33,7 +33,7 @@ public int back_scroll;		/* Repaint screen on backwards movement */
 public int forw_scroll;		/* Repaint screen on forward movement */
 public int caseless;		/* Do "caseless" searches */
 public int linenums;		/* Use line numbers */
-public int save_line_num;	/* Echo line number on exit */
+public int save_line_num;	/* Save line number on exit */
 public int autobuf;		/* Automatically allocate buffers as needed */
 public int bufspace;		/* Max buffer space per file (K) */
 public int ctldisp;		/* Send control chars to screen untranslated */
@@ -87,7 +87,7 @@ static struct optname J__optname     = { "status-column",        NULL };
 static struct optname k_optname      = { "lesskey-file",         NULL };
 #endif
 static struct optname K__optname     = { "quit-on-intr",         NULL };
-static struct optname l__optname     = { "echo-line-num",        NULL };
+static struct optname l__optname     = { "save-line-num",        NULL };
 static struct optname L__optname     = { "no-lessopen",          NULL };
 static struct optname m_optname      = { "long-prompt",          NULL };
 static struct optname n_optname      = { "line-numbers",         NULL };
@@ -272,8 +272,8 @@ static struct loption option[] =
 	{ 'l', &l__optname,
 		BOOL, OPT_OFF, &save_line_num, NULL,
 		{
-			"Exit without echoing line number",
-			"Echo line number when exiting",
+			"Exit without saving line number",
+			"Save line number when exiting",
 			NULL
 		}
 	},

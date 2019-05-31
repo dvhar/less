@@ -541,4 +541,5 @@ struct hilite_tree;
 void postoa LESSPARAMS ((POSITION, char*));
 void linenumtoa LESSPARAMS ((LINENUM, char*));
 void inttoa LESSPARAMS ((int, char*));
-extern int save_line_num;
+extern int save_linenum;
+extern int global_linenum;

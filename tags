@@ -3,104 +3,16 @@
 !_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
-!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-ABORT_SIGS	less.h	500;"	d
+!_TAG_PROGRAM_VERSION	Development	//
 ANY	regexp.c	83;"	d	file:
 ANYBUT	regexp.c	85;"	d	file:
 ANYOF	regexp.c	84;"	d	file:
-ASCII_IS_LOWER	less.h	126;"	d
-ASCII_IS_UPPER	less.h	125;"	d
-ASCII_TO_LOWER	less.h	128;"	d
-ASCII_TO_UPPER	less.h	127;"	d
-AT_ANSI	less.h	397;"	d
-AT_BINARY	less.h	398;"	d
-AT_BLINK	less.h	395;"	d
-AT_BOLD	less.h	394;"	d
-AT_HILITE	less.h	399;"	d
-AT_NORMAL	less.h	392;"	d
-AT_STANDOUT	less.h	396;"	d
-AT_UNDERLINE	less.h	393;"	d
-A_AGAIN_SEARCH	cmd.h	55;"	d
-A_BF_LINE	cmd.h	42;"	d
-A_B_BRACKET	cmd.h	48;"	d
-A_B_LINE	cmd.h	14;"	d
-A_B_SCREEN	cmd.h	15;"	d
-A_B_SCROLL	cmd.h	16;"	d
-A_B_SEARCH	cmd.h	17;"	d
-A_B_WINDOW	cmd.h	46;"	d
-A_CLRMARK	cmd.h	72;"	d
-A_DEBUG	cmd.h	20;"	d
-A_DIGIT	cmd.h	18;"	d
-A_DISP_OPTION	cmd.h	19;"	d
-A_END_LIST	cmd.h	78;"	d
-A_EXAMINE	cmd.h	21;"	d
-A_EXTRA	cmd.h	83;"	d
-A_FF_LINE	cmd.h	41;"	d
-A_FF_SCREEN	cmd.h	52;"	d
-A_FILTER	cmd.h	67;"	d
-A_FIRSTCMD	cmd.h	22;"	d
-A_FREPAINT	cmd.h	23;"	d
-A_F_BRACKET	cmd.h	47;"	d
-A_F_FOREVER	cmd.h	62;"	d
-A_F_LINE	cmd.h	24;"	d
-A_F_SCREEN	cmd.h	25;"	d
-A_F_SCROLL	cmd.h	26;"	d
-A_F_SEARCH	cmd.h	27;"	d
-A_F_UNTIL_HILITE	cmd.h	68;"	d
-A_F_WINDOW	cmd.h	45;"	d
-A_GOEND	cmd.h	28;"	d
-A_GOEND_BUF	cmd.h	69;"	d
-A_GOLINE	cmd.h	29;"	d
-A_GOMARK	cmd.h	30;"	d
-A_GOPOS	cmd.h	63;"	d
-A_HELP	cmd.h	31;"	d
-A_INDEX_FILE	cmd.h	50;"	d
-A_INVALID	cmd.h	75;"	d
-A_LLSHIFT	cmd.h	70;"	d
-A_LSHIFT	cmd.h	53;"	d
-A_NEXT_FILE	cmd.h	32;"	d
-A_NEXT_TAG	cmd.h	65;"	d
-A_NOACTION	cmd.h	76;"	d
-A_OPT_SET	cmd.h	60;"	d
-A_OPT_TOGGLE	cmd.h	59;"	d
-A_OPT_UNSET	cmd.h	61;"	d
-A_PERCENT	cmd.h	33;"	d
-A_PIPE	cmd.h	49;"	d
-A_PREFIX	cmd.h	34;"	d
-A_PREV_FILE	cmd.h	35;"	d
-A_PREV_TAG	cmd.h	66;"	d
-A_QUIT	cmd.h	36;"	d
-A_REMOVE_FILE	cmd.h	64;"	d
-A_REPAINT	cmd.h	37;"	d
-A_REVERSE_SEARCH	cmd.h	57;"	d
-A_RRSHIFT	cmd.h	71;"	d
-A_RSHIFT	cmd.h	54;"	d
-A_SETMARK	cmd.h	38;"	d
-A_SETMARKBOT	cmd.h	73;"	d
-A_SHELL	cmd.h	39;"	d
-A_SKIP	cmd.h	81;"	d
-A_SPECIAL_KEY	cmd.h	79;"	d
-A_STAT	cmd.h	40;"	d
-A_T_AGAIN_SEARCH	cmd.h	56;"	d
-A_T_REVERSE_SEARCH	cmd.h	58;"	d
-A_UINVALID	cmd.h	77;"	d
-A_UNDO_SEARCH	cmd.h	51;"	d
-A_VERSION	cmd.h	43;"	d
-A_VISUAL	cmd.h	44;"	d
 BACK	regexp.c	87;"	d	file:
-BAD_LSEEK	less.h	204;"	d
 BC	screen.c	/^char PC_, *UP, *BC;$/;"	v
 BG_COLORS	screen.c	139;"	d	file:
 BLOCKNUM	ch.c	/^typedef POSITION BLOCKNUM;$/;"	t	file:
 BOL	regexp.c	81;"	d	file:
-BOOL	option.h	16;"	d
-BORLANDC	less.h	20;"	d
-BOTTOM	position.h	16;"	d
-BOTTOM_PLUS_ONE	position.h	17;"	d
 BRANCH	regexp.c	86;"	d	file:
-BS_CONTROL	less.h	361;"	d
-BS_NORMAL	less.h	360;"	d
-BS_SPECIAL	less.h	359;"	d
 BUFHASH	ch.c	82;"	d	file:
 BUFHASH_SIZE	ch.c	57;"	d	file:
 BUF_HASH_INS	ch.c	117;"	d	file:
@@ -109,465 +21,88 @@ BUF_INS_HEAD	ch.c	94;"	d	file:
 BUF_INS_TAIL	ch.c	100;"	d	file:
 BUF_RM	ch.c	90;"	d	file:
 B__optname	opttbl.c	/^static struct optname B__optname     = { "auto-buffers",         NULL };$/;"	v	typeref:struct:optname	file:
-C0_END_LESSKEY_MAGIC	lesskey.h	34;"	d
-C0_LESSKEY_MAGIC	lesskey.h	24;"	d
-C1_END_LESSKEY_MAGIC	lesskey.h	35;"	d
-C1_LESSKEY_MAGIC	lesskey.h	25;"	d
-C2_END_LESSKEY_MAGIC	lesskey.h	36;"	d
-C2_LESSKEY_MAGIC	lesskey.h	26;"	d
-C3_LESSKEY_MAGIC	lesskey.h	27;"	d
-CC	Makefile	/^CC = gcc$/;"	m
-CC_ERROR	less.h	386;"	d
-CC_OK	less.h	384;"	d
-CC_PASS	less.h	387;"	d
-CC_QUIT	less.h	385;"	d
-CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
-CFLAGS_COMPILE_ONLY	Makefile	/^CFLAGS_COMPILE_ONLY = -c$/;"	m
-CF_QUIT_ON_ERASE	less.h	389;"	d
-CHAR_BIT	less.h	214;"	d
-CHAR_END_COMMAND	less.h	475;"	d
-CH_CANSEEK	less.h	511;"	d
-CH_HELPFILE	less.h	514;"	d
-CH_KEEPOPEN	less.h	512;"	d
-CH_NODATA	less.h	515;"	d
-CH_POPENED	less.h	513;"	d
-CLEAR_PATTERN	pattern.h	14;"	d
-CLEAR_PATTERN	pattern.h	25;"	d
-CLEAR_PATTERN	pattern.h	31;"	d
-CLEAR_PATTERN	pattern.h	38;"	d
-CLEAR_PATTERN	pattern.h	46;"	d
-CLEAR_PATTERN	pattern.h	53;"	d
-CLEAR_PATTERN	pattern.h	58;"	d
 CLOSE	regexp.c	94;"	d	file:
-CMDBUF_SIZE	defines.h	202;"	d
-CMD_HISTORY	defines.h	47;"	d
-CMD_SECTION	lesskey.h	29;"	d
 COMMON_LVB_UNDERSCORE	optfunc.c	75;"	d	file:
 COMMON_LVB_UNDERSCORE	output.c	19;"	d	file:
-CONTROL	less.h	411;"	d
-CONTROL	less.h	470;"	d
-CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
-CSI	less.h	474;"	d
-CVT_ANSI	less.h	526;"	d
-CVT_BS	less.h	524;"	d
-CVT_CRLF	less.h	525;"	d
-CVT_TO_LC	less.h	523;"	d
 DECLARE_RANGE_TABLE_END	charset.c	736;"	d	file:
 DECLARE_RANGE_TABLE_START	charset.c	734;"	d	file:
-DECL_GLOB_LIST	lglob.h	26;"	d
-DECL_GLOB_LIST	lglob.h	36;"	d
-DECL_GLOB_NAME	lglob.h	51;"	d
-DECL_GLOB_NAME	lglob.h	66;"	d
-DECL_GLOB_NAME	lglob.h	82;"	d
 DEFAULT_TERM	screen.c	88;"	d	file:
 DEFAULT_TERM	screen.c	91;"	d	file:
-DEF_LESSKEYINFILE	defines.h	115;"	d
-DEF_METACHARS	defines.h	171;"	d
-DEF_METAESCAPE	defines.h	172;"	d
 DEF_SC_HEIGHT	screen.c	716;"	d	file:
 DEF_SC_WIDTH	screen.c	714;"	d	file:
-DESTDIR	Makefile	/^DESTDIR =$/;"	m
-DJGPPC	less.h	22;"	d
 DO_SEARCH	command.c	1463;"	d	file:
 D__optname	opttbl.c	/^static struct optname D__optname     = { "color",                NULL };$/;"	v	typeref:struct:optname	file:
-EC_ABORT	cmd.h	106;"	d
-EC_BACKSPACE	cmd.h	88;"	d
-EC_B_COMPLETE	cmd.h	104;"	d
-EC_DELETE	cmd.h	95;"	d
-EC_DOWN	cmd.h	101;"	d
-EC_END	cmd.h	97;"	d
-EC_EXPAND	cmd.h	102;"	d
-EC_F_COMPLETE	cmd.h	103;"	d
-EC_HOME	cmd.h	96;"	d
-EC_INSERT	cmd.h	94;"	d
-EC_LEFT	cmd.h	91;"	d
-EC_LINEKILL	cmd.h	89;"	d
-EC_LITERAL	cmd.h	105;"	d
-EC_NOACTION	cmd.h	108;"	d
-EC_NOCOMPLETE	cmd.h	114;"	d
-EC_NOHISTORY	cmd.h	113;"	d
-EC_NORIGHTLEFT	cmd.h	115;"	d
-EC_PEEK	cmd.h	112;"	d
-EC_RIGHT	cmd.h	90;"	d
-EC_UINVALID	cmd.h	109;"	d
-EC_UP	cmd.h	100;"	d
-EC_W_BACKSPACE	cmd.h	98;"	d
-EC_W_DELETE	cmd.h	99;"	d
-EC_W_LEFT	cmd.h	92;"	d
-EC_W_RIGHT	cmd.h	93;"	d
-EDITOR	defines.h	60;"	d
-EDIT_PGM	defines.h	217;"	d
-EDIT_SECTION	lesskey.h	30;"	d
 ENABLE_VIRTUAL_TERMINAL_PROCESSING	screen.c	135;"	d	file:
 END	regexp.c	80;"	d	file:
 END_OF_CHAIN	ch.c	80;"	d	file:
 END_OF_HCHAIN	ch.c	81;"	d	file:
-END_OPTION_STRING	option.h	11;"	d
-END_SECTION	lesskey.h	32;"	d
-EOI	less.h	340;"	d
 EOL	regexp.c	79;"	d	file:
 EOL	regexp.c	82;"	d	file:
-ESC	less.h	473;"	d
-EV_OK	cmd.h	118;"	d
 EXACTLY	regexp.c	88;"	d	file:
-EXAMINE	defines.h	35;"	d
-EXEEXT	Makefile	/^EXEEXT = $/;"	m
 FAIL	regexp.c	146;"	d	file:
-FAKE_EMPTYFILE	less.h	520;"	d
-FAKE_HELPFILE	less.h	519;"	d
-FALSE	less.h	178;"	d
 FG_COLORS	screen.c	138;"	d	file:
-FOLLOW_DESC	less.h	507;"	d
-FOLLOW_NAME	less.h	508;"	d
 FOR_BUFS	ch.c	87;"	d	file:
 FOR_BUFS_IN_CHAIN	ch.c	109;"	d	file:
 F__optname	opttbl.c	/^static struct optname F__optname     = { "quit-if-one-screen",   NULL };$/;"	v	typeref:struct:optname	file:
-GLOB	defines.h	78;"	d
-GLOB_FIRST_FAILED	lglob.h	47;"	d
-GLOB_FIRST_FAILED	lglob.h	62;"	d
-GLOB_FIRST_FAILED	lglob.h	78;"	d
-GLOB_FIRST_NAME	lglob.h	46;"	d
-GLOB_FIRST_NAME	lglob.h	61;"	d
-GLOB_FIRST_NAME	lglob.h	77;"	d
-GLOB_LIST	lglob.h	27;"	d
-GLOB_LIST	lglob.h	37;"	d
-GLOB_LIST_DONE	lglob.h	31;"	d
-GLOB_LIST_DONE	lglob.h	41;"	d
-GLOB_LIST_FAILED	lglob.h	28;"	d
-GLOB_LIST_FAILED	lglob.h	38;"	d
-GLOB_NAME	lglob.h	50;"	d
-GLOB_NAME	lglob.h	65;"	d
-GLOB_NAME	lglob.h	81;"	d
-GLOB_NAME_DONE	lglob.h	49;"	d
-GLOB_NAME_DONE	lglob.h	64;"	d
-GLOB_NAME_DONE	lglob.h	80;"	d
-GLOB_NEXT_NAME	lglob.h	48;"	d
-GLOB_NEXT_NAME	lglob.h	63;"	d
-GLOB_NEXT_NAME	lglob.h	79;"	d
-GNU_OPTIONS	defines.h	95;"	d
 HASWIDTH	regexp.c	153;"	d	file:
-HAVE_ANSI_PROTOS	defines.h	140;"	d
-HAVE_CONST	defines.h	220;"	d
-HAVE_CTYPE_H	defines.h	223;"	d
-HAVE_DUP	defines.h	177;"	d
-HAVE_ERRNO	defines.h	226;"	d
-HAVE_ERRNO_H	defines.h	229;"	d
-HAVE_FCHMOD	defines.h	232;"	d
-HAVE_FCNTL_H	defines.h	235;"	d
-HAVE_FILENO	defines.h	238;"	d
-HAVE_FLOAT	defines.h	241;"	d
-HAVE_FSYNC	defines.h	244;"	d
-HAVE_INTTYPES_H	defines.h	250;"	d
-HAVE_LIMITS_H	defines.h	253;"	d
-HAVE_LOCALE	defines.h	256;"	d
-HAVE_MEMCPY	defines.h	180;"	d
-HAVE_MEMORY_H	defines.h	259;"	d
-HAVE_OSPEED	defines.h	262;"	d
-HAVE_PERROR	defines.h	156;"	d
-HAVE_POPEN	defines.h	268;"	d
-HAVE_POSIX_REGCOMP	defines.h	271;"	d
-HAVE_SHELL	defines.h	166;"	d
-HAVE_SIGEMPTYSET	defines.h	283;"	d
-HAVE_SIGPROCMASK	defines.h	286;"	d
-HAVE_SIGPROCMASK	less.h	486;"	d
-HAVE_SIGSETMASK	defines.h	289;"	d
-HAVE_SIGSETMASK	less.h	36;"	d
-HAVE_SIGSET_T	defines.h	292;"	d
-HAVE_SNPRINTF	defines.h	295;"	d
-HAVE_STAT	defines.h	298;"	d
-HAVE_STAT_INO	defines.h	301;"	d
-HAVE_STDINT_H	defines.h	304;"	d
-HAVE_STDIO_H	defines.h	307;"	d
-HAVE_STDLIB_H	defines.h	310;"	d
-HAVE_STRCHR	defines.h	183;"	d
-HAVE_STRERROR	defines.h	313;"	d
-HAVE_STRINGS_H	defines.h	316;"	d
-HAVE_STRING_H	defines.h	319;"	d
-HAVE_STRSTR	defines.h	186;"	d
-HAVE_SYSTEM	defines.h	322;"	d
-HAVE_SYS_ERRLIST	defines.h	325;"	d
-HAVE_SYS_IOCTL_H	defines.h	328;"	d
-HAVE_SYS_STAT_H	defines.h	331;"	d
-HAVE_SYS_TYPES_H	defines.h	145;"	d
-HAVE_SYS_TYPES_H	defines.h	337;"	d
-HAVE_TERMCAP_H	defines.h	340;"	d
-HAVE_TERMIOS_FUNCS	defines.h	343;"	d
-HAVE_TERMIOS_H	defines.h	346;"	d
-HAVE_TERMIO_H	defines.h	349;"	d
-HAVE_TIME	defines.h	161;"	d
-HAVE_TIME_H	defines.h	352;"	d
-HAVE_TIME_T	defines.h	355;"	d
-HAVE_UNISTD_H	defines.h	358;"	d
-HAVE_UPPER_LOWER	defines.h	361;"	d
-HAVE_VALUES_H	defines.h	367;"	d
-HAVE_VOID	defines.h	370;"	d
-HAVE_WCTYPE	defines.h	373;"	d
-HAVE_WCTYPE_H	defines.h	376;"	d
-HAVE__SETJMP	defines.h	379;"	d
 HILITE_INITIALIZER	search.c	92;"	d	file:
 HILITE_LOOKASIDE_STEPS	search.c	93;"	d	file:
-HILITE_SEARCH	defines.h	53;"	d
 HISTFILE_FIRST_LINE	cmdbuf.c	58;"	d	file:
 HISTFILE_SEARCH_SECTION	cmdbuf.c	59;"	d	file:
 HISTFILE_SHELL_SECTION	cmdbuf.c	60;"	d	file:
-HL_REPAINT	option.h	23;"	d
-IFILE	less.h	289;"	d
-INIT	option.h	34;"	d
-INIT_GLOB_LIST	lglob.h	30;"	d
-INIT_GLOB_LIST	lglob.h	40;"	d
-INIT_HANDLER	option.h	25;"	d
-INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
-INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
-INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
-INT_STRLEN_BOUND	less.h	222;"	d
 ISMULT	regexp.c	147;"	d	file:
-IS_ASCII_OCTET	charset.h	10;"	d
 IS_BINARY_CHAR	charset.c	118;"	d	file:
 IS_CONTROL_CHAR	charset.c	119;"	d	file:
-IS_CSI_START	less.h	168;"	d
-IS_DIGIT	less.h	135;"	d
-IS_DIGIT	less.h	163;"	d
-IS_DIGIT	less.h	165;"	d
-IS_EBCDIC_HOST	less.h	402;"	d
-IS_LOWER	less.h	131;"	d
-IS_LOWER	less.h	139;"	d
-IS_LOWER	less.h	145;"	d
-IS_LOWER	less.h	150;"	d
-IS_SPACE	less.h	134;"	d
-IS_SPACE	less.h	157;"	d
-IS_SPACE	less.h	159;"	d
-IS_UPPER	less.h	130;"	d
-IS_UPPER	less.h	138;"	d
-IS_UPPER	less.h	144;"	d
-IS_UPPER	less.h	149;"	d
-IS_UTF8_INVALID	charset.h	17;"	d
-IS_UTF8_LEAD	charset.h	18;"	d
-IS_UTF8_LEAD2	charset.h	12;"	d
-IS_UTF8_LEAD3	charset.h	13;"	d
-IS_UTF8_LEAD4	charset.h	14;"	d
-IS_UTF8_LEAD5	charset.h	15;"	d
-IS_UTF8_LEAD6	charset.h	16;"	d
-IS_UTF8_TRAIL	charset.h	11;"	d
 J__optname	opttbl.c	/^static struct optname J__optname     = { "status-column",        NULL };$/;"	v	typeref:struct:optname	file:
-KRADIX	lesskey.h	39;"	d
 K__optname	opttbl.c	/^static struct optname K__optname     = { "quit-on-intr",         NULL };$/;"	v	typeref:struct:optname	file:
 LASTMARK	mark.c	24;"	d	file:
 LBUFSIZE	ch.c	44;"	d	file:
-LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
-LESSHISTFILE	defines.h	116;"	d
-LESSKEYFILE	defines.h	113;"	d
-LESSKEYFILE_SYS	defines.h	114;"	d
-LESSPARAMS	less.h	43;"	d
-LESSPARAMS	less.h	45;"	d
-LIBS	Makefile	/^LIBS =  -ltinfo$/;"	m
-LINEBUF_SIZE	defines.h	204;"	d
-LINENUM	less.h	/^typedef off_t		LINENUM;$/;"	t
-LITTLE_QUIET	less.h	350;"	d
-LOGFILE	defines.h	89;"	d
 LONGTIME	linenum.c	60;"	d	file:
 LONG_JUMP	os.c	45;"	d	file:
 LONG_JUMP	os.c	48;"	d	file:
-LSIGNAL	less.h	478;"	d
-LSIGNAL	less.h	480;"	d
-LWCHAR	less.h	/^typedef unsigned long LWCHAR;$/;"	t
 L__optname	opttbl.c	/^static struct optname L__optname     = { "no-lessopen",          NULL };$/;"	v	typeref:struct:optname	file:
 MAGIC	regexp.c	171;"	d	file:
 MAKEATTR	screen.c	140;"	d	file:
 MAXPOS	search.c	20;"	d	file:
-MAX_CMDLEN	cmd.h	12;"	d
-MAX_USERCMD	cmd.h	11;"	d
-MAX_UTF_CHAR_LEN	less.h	231;"	d
-MCA_DONE	less.h	381;"	d
-MCA_MORE	less.h	382;"	d
 META	regexp.c	148;"	d	file:
-MIDDLE	position.h	18;"	d
 MINPOS	search.c	19;"	d	file:
-MIN_LINENUM_WIDTH	less.h	230;"	d
-MSDOS_COMPILER	defines.h	124;"	d
-MSOFTC	less.h	19;"	d
 MUST_SET_LINE_DISCIPLINE	screen.c	82;"	d	file:
 MUST_SET_LINE_DISCIPLINE	screen.c	84;"	d	file:
 M_proto	prompt.c	/^static constant char M_proto[] =$/;"	v	file:
-NEWBOT	less.h	10;"	d
 NEXT	regexp.c	129;"	d	file:
 NMARKS	mark.c	23;"	d	file:
 NOTHING	regexp.c	89;"	d	file:
-NOT_QUIET	less.h	349;"	d
-NOVAR	option.h	20;"	d
-NO_MCA	less.h	380;"	d
-NO_QUERY	option.h	24;"	d
-NO_TOGGLE	option.h	22;"	d
 NPOOL	linenum.c	58;"	d	file:
-NSUBEXP	regexp.h	11;"	d
-NULL	less.h	171;"	d
-NULL_IFILE	less.h	290;"	d
-NULL_PARG	less.h	321;"	d
-NULL_POSITION	less.h	233;"	d
-NUMBER	option.h	18;"	d
-NUM_FRAC_DENOM	less.h	345;"	d
-NUM_LOG_FRAC_DENOM	less.h	346;"	d
-O	Makefile	/^O=o$/;"	m
-OBJ	Makefile	/^OBJ = \\$/;"	m
-OLETTER_NONE	option.h	29;"	d
-ONLY_RETURN	defines.h	102;"	d
 OP	regexp.c	128;"	d	file:
 OPEN	regexp.c	92;"	d	file:
-OPEN_APPEND	less.h	253;"	d
-OPEN_APPEND	less.h	256;"	d
-OPEN_APPEND	less.h	258;"	d
-OPEN_READ	less.h	239;"	d
-OPEN_READ	less.h	242;"	d
-OPEN_READ	less.h	245;"	d
-OPEN_READ	less.h	247;"	d
 OPERAND	regexp.c	130;"	d	file:
-OPTNAME_MAX	option.h	54;"	d
-OPT_AMBIG	option.h	46;"	d
-OPT_NO_PROMPT	option.h	43;"	d
-OPT_NO_TOGGLE	option.h	39;"	d
-OPT_OFF	less.h	181;"	d
-OPT_ON	less.h	182;"	d
-OPT_ONPLUS	less.h	183;"	d
-OPT_SET	option.h	42;"	d
-OPT_TOGGLE	option.h	40;"	d
-OPT_UNSET	option.h	41;"	d
-OTYPE	option.h	27;"	d
-OUTBUF_SIZE	defines.h	205;"	d
 O__optname	opttbl.c	/^static struct optname O__optname     = { "LOG-FILE",             NULL };$/;"	v	typeref:struct:optname	file:
-PACKAGE_BUGREPORT	defines.h	393;"	d
-PACKAGE_NAME	defines.h	396;"	d
-PACKAGE_STRING	defines.h	399;"	d
-PACKAGE_TARNAME	defines.h	402;"	d
-PACKAGE_URL	defines.h	405;"	d
-PACKAGE_VERSION	defines.h	408;"	d
 PAGE_NUM	prompt.c	258;"	d	file:
 PAGE_NUM	prompt.c	259;"	d	file:
-PARG	less.h	/^} PARG;$/;"	t	typeref:union:parg
-PATHNAME_SEP	defines.h	129;"	d
-PATTERN_TYPE	pattern.h	13;"	d
-PATTERN_TYPE	pattern.h	24;"	d
-PATTERN_TYPE	pattern.h	30;"	d
-PATTERN_TYPE	pattern.h	37;"	d
-PATTERN_TYPE	pattern.h	45;"	d
-PATTERN_TYPE	pattern.h	52;"	d
-PATTERN_TYPE	pattern.h	57;"	d
-PCK_ALT_E	pckeys.h	17;"	d
-PCK_CAPS_LOCK	pckeys.h	18;"	d
-PCK_CTL_DELETE	pckeys.h	33;"	d
-PCK_CTL_LEFT	pckeys.h	31;"	d
-PCK_CTL_RIGHT	pckeys.h	32;"	d
-PCK_DELETE	pckeys.h	30;"	d
-PCK_DOWN	pckeys.h	27;"	d
-PCK_END	pckeys.h	26;"	d
-PCK_F1	pckeys.h	19;"	d
-PCK_HOME	pckeys.h	21;"	d
-PCK_INSERT	pckeys.h	29;"	d
-PCK_LEFT	pckeys.h	24;"	d
-PCK_NUM_LOCK	pckeys.h	20;"	d
-PCK_PAGEDOWN	pckeys.h	28;"	d
-PCK_PAGEUP	pckeys.h	23;"	d
-PCK_RIGHT	pckeys.h	25;"	d
-PCK_SHIFT_TAB	pckeys.h	16;"	d
-PCK_UP	pckeys.h	22;"	d
 PC_	screen.c	/^char PC_, *UP, *BC;$/;"	v
-PIPEC	defines.h	84;"	d
 PLUS	regexp.c	91;"	d	file:
-POSITION	less.h	/^typedef off_t		POSITION;$/;"	t
 PREFIX	lesskey.c	549;"	d	file:
-PROMPT_SIZE	defines.h	206;"	d
-PR_LONG	less.h	356;"	d
-PR_MEDIUM	less.h	355;"	d
-PR_SHORT	less.h	354;"	d
 P__optname	opttbl.c	/^static struct optname P__optname     = { "prompt",               NULL };$/;"	v	typeref:struct:optname	file:
-QUERY	option.h	35;"	d
-QUIT_ERROR	less.h	503;"	d
-QUIT_INTERRUPT	less.h	504;"	d
-QUIT_OK	less.h	502;"	d
-QUIT_SAVED_STATUS	less.h	505;"	d
-READ_INTR	less.h	342;"	d
-REGCOMP_FLAG	pattern.h	20;"	d
-REGCOMP_FLAG	pattern.h	22;"	d
-REPAINT	option.h	21;"	d
-RETSIGTYPE	defines.h	411;"	d
-SCAN_GLOB_LIST	lglob.h	29;"	d
-SCAN_GLOB_LIST	lglob.h	39;"	d
 SEARCH_MORE	search.c	1563;"	d	file:
-SECURE	defines.h	24;"	d
-SECURE_COMPILE	defines.h	414;"	d
-SEEK_END	less.h	210;"	d
-SEEK_SET	less.h	207;"	d
 SETCOLORS	screen.c	109;"	d	file:
 SETCOLORS	screen.c	141;"	d	file:
 SETCOLORS	screen.c	98;"	d	file:
-SET_BINARY	less.h	266;"	d
-SET_BINARY	less.h	269;"	d
-SET_BINARY	less.h	271;"	d
 SET_JUMP	os.c	44;"	d	file:
 SET_JUMP	os.c	47;"	d	file:
-SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
-SHELL_ESCAPE	defines.h	30;"	d
-SHELL_META_QUEST	less.h	279;"	d
-SHELL_META_QUEST	less.h	281;"	d
 SIG_LESSWINDOW	signal.c	81;"	d	file:
 SIG_LESSWINDOW	signal.c	83;"	d	file:
 SIG_LESSWINDOW	signal.c	86;"	d	file:
 SIMPLE	regexp.c	154;"	d	file:
 SK	decode.c	39;"	d	file:
-SK_BACKTAB	cmd.h	136;"	d
-SK_CONTROL_K	cmd.h	138;"	d
-SK_CTL_BACKSPACE	cmd.h	137;"	d
-SK_CTL_DELETE	cmd.h	134;"	d
-SK_CTL_LEFT_ARROW	cmd.h	132;"	d
-SK_CTL_RIGHT_ARROW	cmd.h	133;"	d
-SK_DELETE	cmd.h	130;"	d
-SK_DOWN_ARROW	cmd.h	125;"	d
-SK_END	cmd.h	129;"	d
-SK_F1	cmd.h	135;"	d
-SK_HOME	cmd.h	128;"	d
-SK_INSERT	cmd.h	131;"	d
-SK_LEFT_ARROW	cmd.h	123;"	d
-SK_PAGE_DOWN	cmd.h	127;"	d
-SK_PAGE_UP	cmd.h	126;"	d
-SK_RIGHT_ARROW	cmd.h	122;"	d
-SK_SPECIAL_KEY	cmd.h	121;"	d
-SK_UP_ARROW	cmd.h	124;"	d
-SNPRINTF1	less.h	192;"	d
-SNPRINTF1	less.h	198;"	d
-SNPRINTF2	less.h	193;"	d
-SNPRINTF2	less.h	199;"	d
-SNPRINTF3	less.h	194;"	d
-SNPRINTF3	less.h	200;"	d
-SNPRINTF4	less.h	195;"	d
-SNPRINTF4	less.h	201;"	d
-SPACES_IN_FILENAMES	less.h	284;"	d
 SPSTART	regexp.c	155;"	d	file:
-SRCH_AFTER_TARGET	less.h	373;"	d
-SRCH_BACK	less.h	365;"	d
-SRCH_FILTER	less.h	372;"	d
-SRCH_FIND_ALL	less.h	367;"	d
-SRCH_FIRST_FILE	less.h	370;"	d
-SRCH_FORW	less.h	364;"	d
-SRCH_NO_MATCH	less.h	368;"	d
-SRCH_NO_MOVE	less.h	366;"	d
-SRCH_NO_REGEX	less.h	371;"	d
-SRCH_PAST_EOF	less.h	369;"	d
-SRCH_REVERSE	less.h	375;"	d
 STAR	regexp.c	90;"	d	file:
 STATIC	regexp.c	178;"	d	file:
-STDC_HEADERS	defines.h	420;"	d
 STORE_CHAR	line.c	615;"	d	file:
 STORE_PRCHAR	line.c	756;"	d	file:
 STORE_TAB	line.c	725;"	d	file:
-STRING	option.h	19;"	d
-S_INTERRUPT	less.h	497;"	d
 S_ISDIR	filename.c	39;"	d	file:
 S_ISREG	filename.c	42;"	d	file:
-S_STOP	less.h	498;"	d
-S_WINCH	less.h	499;"	d
 S__optname	opttbl.c	/^static struct optname S__optname     = { "chop-long-lines",      NULL };$/;"	v	typeref:struct:optname	file:
-TABSTOP_MAX	defines.h	210;"	d
-TAB_COMPLETE_FILENAME	defines.h	41;"	d
-TAGLINE_SIZE	defines.h	209;"	d
-TAGS	defines.h	65;"	d
 TAG_END	tags.c	74;"	d	file:
 TAG_FOUND	tags.c	/^	TAG_FOUND,$/;"	e	enum:tag_result	file:
 TAG_INS	tags.c	78;"	d	file:
@@ -576,23 +111,6 @@ TAG_NOFILE	tags.c	/^	TAG_NOFILE,$/;"	e	enum:tag_result	file:
 TAG_NOTAG	tags.c	/^	TAG_NOTAG,$/;"	e	enum:tag_result	file:
 TAG_NOTYPE	tags.c	/^	TAG_NOTYPE,$/;"	e	enum:tag_result	file:
 TAG_RM	tags.c	84;"	d	file:
-TERMBUF_SIZE	defines.h	207;"	d
-TERMSBUF_SIZE	defines.h	208;"	d
-TGETENT_OK	defines.h	135;"	d
-TIME_WITH_SYS_TIME	defines.h	423;"	d
-TOGGLE	option.h	36;"	d
-TOP	position.h	14;"	d
-TOP_PLUS_ONE	position.h	15;"	d
-TO_LOWER	less.h	133;"	d
-TO_LOWER	less.h	141;"	d
-TO_LOWER	less.h	147;"	d
-TO_LOWER	less.h	152;"	d
-TO_UPPER	less.h	132;"	d
-TO_UPPER	less.h	140;"	d
-TO_UPPER	less.h	146;"	d
-TO_UPPER	less.h	151;"	d
-TRIPLE	option.h	17;"	d
-TRUE	less.h	175;"	d
 TYPE_TO_A_FUNC	output.c	464;"	d	file:
 T_CTAGS	tags.c	/^	T_CTAGS,	\/* 'tags': standard and extended format (ctags) *\/$/;"	e	enum:__anon1	file:
 T_CTAGS_X	tags.c	/^	T_CTAGS_X,	\/* stdin: cross reference format (ctags) *\/$/;"	e	enum:__anon1	file:
@@ -603,18 +121,9 @@ T_GTAGS	tags.c	/^	T_GTAGS,	\/* 'GTAGS': function defenition (global) *\/$/;"	e	e
 T__optname	opttbl.c	/^static struct optname T__optname     = { "tag-file",             NULL };$/;"	v	typeref:struct:optname	file:
 UCHARAT	regexp.c	141;"	d	file:
 UCHARAT	regexp.c	143;"	d	file:
-UNGOT_SIZE	defines.h	203;"	d
 UP	screen.c	/^char PC_, *UP, *BC;$/;"	v
-USERFILE	defines.h	71;"	d
-VAR_SECTION	lesskey.h	31;"	d
-VERY_QUIET	less.h	351;"	d
-VOID_PARAM	less.h	49;"	d
-VOID_PARAM	less.h	52;"	d
-VOID_POINTER	less.h	48;"	d
-VOID_POINTER	less.h	51;"	d
 V__optname	opttbl.c	/^static struct optname V__optname     = { "version",              NULL };$/;"	v	typeref:struct:optname	file:
 WHITESP	tags.c	13;"	d	file:
-WIN32C	less.h	21;"	d
 WIN32_LEAN_AND_MEAN	charset.c	26;"	d	file:
 WIN32_LEAN_AND_MEAN	line.c	21;"	d	file:
 WIN32getch	screen.c	/^WIN32getch(tty)$/;"	f
@@ -622,12 +131,7 @@ WIN32setcolors	screen.c	/^WIN32setcolors(fg, bg)$/;"	f
 WIN32textout	screen.c	/^WIN32textout(text, len)$/;"	f
 WORST	regexp.c	156;"	d	file:
 X__optname	opttbl.c	/^static struct optname X__optname     = { "no-init",              NULL };$/;"	v	typeref:struct:optname	file:
-_ANSI_ARGS_	regexp.h	23;"	d
-_ANSI_ARGS_	regexp.h	25;"	d
-_DARWIN_USE_64_BIT_INODE	defines.h	427;"	d
 _MAX_PATH	filename.c	26;"	d	file:
-_REGEXP	regexp.h	9;"	d
-__USE_GNU	pattern.h	11;"	d
 _clearscreen	screen.c	107;"	d	file:
 _outtext	screen.c	108;"	d	file:
 _settextposition	screen.c	/^_settextposition(int row, int col)$/;"	f	file:
@@ -635,14 +139,6 @@ _settextposition	screen.c	106;"	d	file:
 a_optname	opttbl.c	/^static struct optname a_optname      = { "search-skip-screen",   NULL };$/;"	v	typeref:struct:optname	file:
 abort_long	linenum.c	/^abort_long()$/;"	f	file:
 above_mem	screen.c	/^public int above_mem, below_mem;	\/* Memory retained above\/below screen *\/$/;"	v
-ac_fn_c_check_func	configure	/^ac_fn_c_check_func ()$/;"	f
-ac_fn_c_check_header_compile	configure	/^ac_fn_c_check_header_compile ()$/;"	f
-ac_fn_c_check_header_mongrel	configure	/^ac_fn_c_check_header_mongrel ()$/;"	f
-ac_fn_c_check_type	configure	/^ac_fn_c_check_type ()$/;"	f
-ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
-ac_fn_c_try_cpp	configure	/^ac_fn_c_try_cpp ()$/;"	f
-ac_fn_c_try_link	configure	/^ac_fn_c_try_link ()$/;"	f
-ac_fn_c_try_run	configure	/^ac_fn_c_try_run ()$/;"	f
 add_attr_normal	line.c	/^add_attr_normal()$/;"	f	file:
 add_back_pos	position.c	/^add_back_pos(pos)$/;"	f
 add_cmd_char	lesskey.c	/^add_cmd_char(c)$/;"	f
@@ -668,26 +164,6 @@ ap_pos	prompt.c	/^ap_pos(pos)$/;"	f	file:
 ap_quest	prompt.c	/^ap_quest()$/;"	f	file:
 ap_str	prompt.c	/^ap_str(s)$/;"	f	file:
 apply_at_specials	screen.c	/^apply_at_specials(attr)$/;"	f
-as_fn_append	config.status	/^  as_fn_append ()$/;"	f
-as_fn_append	configure	/^  as_fn_append ()$/;"	f
-as_fn_arith	config.status	/^  as_fn_arith ()$/;"	f
-as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
-as_fn_error	config.status	/^as_fn_error ()$/;"	f
-as_fn_error	configure	/^as_fn_error ()$/;"	f
-as_fn_executable_p	config.status	/^as_fn_executable_p ()$/;"	f
-as_fn_executable_p	configure	/^as_fn_executable_p ()$/;"	f
-as_fn_exit	config.status	/^as_fn_exit ()$/;"	f
-as_fn_exit	configure	/^as_fn_exit ()$/;"	f
-as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
-as_fn_mkdir_p	config.status	/^as_fn_mkdir_p ()$/;"	f
-as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
-as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
-as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
-as_fn_set_status	config.status	/^as_fn_set_status ()$/;"	f
-as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
-as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
-as_fn_unset	config.status	/^as_fn_unset ()$/;"	f
-as_fn_unset	configure	/^as_fn_unset ()$/;"	f
 ascii	screen.c	/^	int ascii;$/;"	m	struct:keyRecord	file:
 at_enter	screen.c	/^at_enter(attr)$/;"	f
 at_exit	screen.c	/^at_exit()$/;"	f
@@ -715,9 +191,7 @@ below_mem	screen.c	/^public int above_mem, below_mem;	\/* Memory retained above\
 bin_file	filename.c	/^bin_file(f)$/;"	f
 binary_char	charset.c	/^binary_char(c)$/;"	f
 binattr	charset.c	/^public int binattr = AT_STANDOUT;$/;"	v
-bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
 binfmt	charset.c	/^static char *binfmt = NULL;$/;"	v	file:
-binprefix	Makefile	/^binprefix = $/;"	m
 bl_bg_color	screen.c	/^public int bl_bg_color;$/;"	v
 bl_e_width	screen.c	/^public int bl_s_width, bl_e_width;	\/* Printing width of blink seq *\/$/;"	v
 bl_fg_color	screen.c	/^public int bl_fg_color;		\/* Color of blinking text *\/$/;"	v
@@ -773,7 +247,6 @@ ch_setbufspace	ch.c	/^ch_setbufspace(bufspace)$/;"	f
 ch_tell	ch.c	/^ch_tell()$/;"	f
 ch_ungetchar	ch.c	/^ch_ungetchar(c)$/;"	f
 ch_ungotchar	ch.c	/^static int ch_ungotchar = -1;$/;"	v	file:
-ch_zero	less.h	517;"	d
 chardef	charset.c	/^static char chardef[256];$/;"	v	file:
 charset	charset.c	/^struct charset {$/;"	s	file:
 charsets	charset.c	/^} charsets[] = {$/;"	v	typeref:struct:charset
@@ -860,14 +333,11 @@ con_out_save	screen.c	/^static HANDLE con_out_save = INVALID_HANDLE_VALUE; \/* p
 cond	prompt.c	/^cond(c, where)$/;"	f	file:
 consoleTitle	main.c	/^static char consoleTitle[256];$/;"	v	file:
 console_mode	ttyin.c	/^static DWORD console_mode;$/;"	v	file:
-constant	less.h	56;"	d
-constant	less.h	58;"	d
 control_char	charset.c	/^control_char(c)$/;"	f
 control_line	lesskey.c	/^control_line(s)$/;"	f
 copy_hist	cmdbuf.c	/^copy_hist(void *uparam, struct mlist *ml, char *string)$/;"	f	file:
 cost	screen.c	/^cost(t)$/;"	f	file:
 costcount	screen.c	/^static int costcount;$/;"	v	file:
-count	less.h	/^	int count;$/;"	m	struct:wchar_range_table
 cp	cmdbuf.c	/^static char *cp;		\/* Pointer into cmdbuf *\/$/;"	v	file:
 create_flash	screen.c	/^create_flash()$/;"	f	file:
 create_hilites	search.c	/^create_hilites(linepos, start_index, end_index, chpos)$/;"	f	file:
@@ -883,23 +353,22 @@ curr_cmdflags	cmdbuf.c	/^static int curr_cmdflags;$/;"	v	file:
 curr_dev	edit.c	/^public dev_t curr_dev;$/;"	v
 curr_ifile	main.c	/^public IFILE	curr_ifile = NULL_IFILE;$/;"	v
 curr_ino	edit.c	/^public ino_t curr_ino;$/;"	v
-curr_mlist	cmdbuf.c	/^static struct mlist *curr_mlist = NULL;$/;"	v	typeref:struct:mlist	file:
-curr_mp	cmdbuf.c	/^	struct mlist *curr_mp;$/;"	m	struct:mlist	typeref:struct:mlist::mlist	file:
+curr_mlist	cmdbuf.c	/^static struct mlist *curr_mlist = NULL;$/;"	v	typeref:struct:	file:
+curr_mp	cmdbuf.c	/^	struct mlist *curr_mp;$/;"	m	struct:mlist	typeref:struct:mlist::	file:
 curr_tag	tags.c	/^curr_tag()$/;"	f
-current	search.c	/^	struct hilite_storage *current;$/;"	m	struct:hilite_tree	typeref:struct:hilite_tree::hilite_storage	file:
+current	search.c	/^	struct hilite_storage *current;$/;"	m	struct:hilite_tree	typeref:struct:hilite_tree::	file:
 currentKey	screen.c	/^} currentKey;$/;"	v	typeref:struct:keyRecord
 currline	linenum.c	/^currline(where)$/;"	f
-curropt	command.c	/^static struct loption *curropt;$/;"	v	typeref:struct:loption	file:
-currtable	lesskey.c	/^struct table *currtable = &cmdtable;$/;"	v	typeref:struct:table
+curropt	command.c	/^static struct loption *curropt;$/;"	v	typeref:struct:	file:
+currtable	lesskey.c	/^struct table *currtable = &cmdtable;$/;"	v	typeref:struct:
 curseq	tags.c	/^static int curseq;$/;"	v	file:
-curtag	tags.c	/^static struct tag *curtag;$/;"	v	typeref:struct:tag	file:
+curtag	tags.c	/^static struct tag *curtag;$/;"	v	typeref:struct:	file:
 curtag_match	tags.c	/^curtag_match(char const *line, POSITION linepos)$/;"	f	file:
 cvt_alloc_chpos	cvt.c	/^cvt_alloc_chpos(len)$/;"	f
 cvt_length	cvt.c	/^cvt_length(len, ops)$/;"	f
 cvt_text	cvt.c	/^cvt_text(odst, osrc, chpos, lenp, ops)$/;"	f
 d_optname	opttbl.c	/^static struct optname d_optname      = { "dumb",                 NULL };$/;"	v	typeref:struct:optname	file:
 data	ch.c	/^	unsigned char data[LBUFSIZE];$/;"	m	struct:buf	file:
-datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
 datasize	ch.c	/^	unsigned int datasize;$/;"	m	struct:buf	file:
 deinit	screen.c	/^deinit()$/;"	f
 del_ifile	ifile.c	/^del_ifile(h)$/;"	f
@@ -940,10 +409,7 @@ empty_screen	position.c	/^empty_screen()$/;"	f
 end_ansi_chars	line.c	/^static char *end_ansi_chars;$/;"	v	file:
 end_attnpos	main.c	/^public POSITION	end_attnpos = NULL_POSITION;$/;"	v
 end_logfile	ch.c	/^end_logfile()$/;"	f
-end_run	mkutable	/^sub end_run {$/;"	s
-endp	regexp.h	/^	char *endp[NSUBEXP];$/;"	m	struct:regexp
 endsection	lesskey.c	/^char endsection[1] =	{ END_SECTION };$/;"	v
-endstring	less.h	/^	char *endstring;$/;"	m	struct:textlist
 entire_file_displayed	forwback.c	/^entire_file_displayed()$/;"	f
 eof_bell	forwback.c	/^eof_bell()$/;"	f	file:
 eof_displayed	forwback.c	/^eof_displayed()$/;"	f
@@ -958,7 +424,6 @@ error	output.c	/^error(fmt, parg)$/;"	f
 errors	lesskey.c	/^int errors;$/;"	v
 every_first_cmd	main.c	/^public char *	every_first_cmd = NULL;$/;"	v
 exec_mca	command.c	/^exec_mca()$/;"	f	file:
-exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
 expand_cmd_table	decode.c	/^expand_cmd_table(tlist)$/;"	f	file:
 expand_cmd_tables	decode.c	/^expand_cmd_tables()$/;"	f
 expand_linebuf	line.c	/^expand_linebuf()$/;"	f	file:
@@ -987,8 +452,7 @@ findgtag	tags.c	/^findgtag(tag, type)$/;"	f	file:
 findopt	opttbl.c	/^findopt(c)$/;"	f
 findopt_name	opttbl.c	/^findopt_name(p_optname, p_oname, p_err)$/;"	f
 findtag	tags.c	/^findtag(tag)$/;"	f
-first	less.h	/^	LWCHAR first, last;$/;"	m	struct:wchar_range
-first	search.c	/^	struct hilite_storage *first;$/;"	m	struct:hilite_tree	typeref:struct:hilite_tree::hilite_storage	file:
+first	search.c	/^	struct hilite_storage *first;$/;"	m	struct:hilite_tree	typeref:struct:hilite_tree::	file:
 flags	ch.c	/^	int flags;$/;"	m	struct:filestate	file:
 flash_created	screen.c	/^static int flash_created = 0;$/;"	v	file:
 flip_triple	option.c	/^flip_triple(val, lc)$/;"	f	file:
@@ -1011,7 +475,7 @@ fpos	ch.c	/^	POSITION fpos;$/;"	m	struct:filestate	file:
 fputbytes	lesskey.c	/^fputbytes(fd, buf, len)$/;"	f
 fputint	lesskey.c	/^fputint(fd, val)$/;"	f
 fraction	command.c	/^static long fraction;		\/* The fractional part of the number *\/$/;"	v	file:
-freelist	linenum.c	/^static struct linenum_info *freelist;	\/* Anchor of the unused entries *\/$/;"	v	typeref:struct:linenum_info	file:
+freelist	linenum.c	/^static struct linenum_info *freelist;	\/* Anchor of the unused entries *\/$/;"	v	typeref:struct:	file:
 fsize	ch.c	/^	POSITION fsize;$/;"	m	struct:filestate	file:
 g_optname	opttbl.c	/^static struct optname g_optname      = { "hilite-search",        NULL };$/;"	v	typeref:struct:optname	file:
 gap	linenum.c	/^	POSITION gap;			\/* Gap between prev and next *\/$/;"	m	struct:linenum_info	file:
@@ -1050,6 +514,7 @@ gettagtype	tags.c	/^gettagtype()$/;"	f
 getumark	mark.c	/^getumark(c)$/;"	f	file:
 gint	decode.c	/^gint(sp)$/;"	f	file:
 gline	line.c	/^gline(i, ap)$/;"	f
+global_linenum	linenum.c	/^int global_linenum = -1;$/;"	v
 gomark	mark.c	/^gomark(c)$/;"	f
 goto_line	screen.c	/^goto_line(sindex)$/;"	f
 gtagsearch	tags.c	/^gtagsearch()$/;"	f	file:
@@ -1059,10 +524,10 @@ h_filename	ifile.c	/^	char *h_filename;               \/* Name of the file *\/$/
 h_filestate	ifile.c	/^	void *h_filestate;              \/* File state (used in ch.c) *\/$/;"	m	struct:ifile	file:
 h_hold	ifile.c	/^	int h_hold;                     \/* Hold count *\/$/;"	m	struct:ifile	file:
 h_index	ifile.c	/^	int h_index;                    \/* Index within command line list *\/$/;"	m	struct:ifile	file:
-h_next	ifile.c	/^	struct ifile *h_next;           \/* Links for command line list *\/$/;"	m	struct:ifile	typeref:struct:ifile::ifile	file:
+h_next	ifile.c	/^	struct ifile *h_next;           \/* Links for command line list *\/$/;"	m	struct:ifile	typeref:struct:ifile::	file:
 h_opened	ifile.c	/^	char h_opened;                  \/* Has this ifile been opened? *\/$/;"	m	struct:ifile	file:
 h_optname	opttbl.c	/^static struct optname h_optname      = { "max-back-scroll",      NULL };$/;"	v	typeref:struct:optname	file:
-h_prev	ifile.c	/^	struct ifile *h_prev;$/;"	m	struct:ifile	typeref:struct:ifile::ifile	file:
+h_prev	ifile.c	/^	struct ifile *h_prev;$/;"	m	struct:ifile	typeref:struct:ifile::	file:
 h_proto	prompt.c	/^static constant char h_proto[] =$/;"	v	file:
 h_scrpos	ifile.c	/^	struct scrpos h_scrpos;         \/* Saved position within the file *\/$/;"	m	struct:ifile	typeref:struct:ifile::scrpos	file:
 hardcopy	screen.c	/^static int hardcopy;$/;"	v	file:
@@ -1093,7 +558,7 @@ hlist_next	search.c	/^hlist_next(n)$/;"	f
 hlist_prev	search.c	/^hlist_prev(n)$/;"	f
 hlist_rotate_left	search.c	/^hlist_rotate_left(anchor, n)$/;"	f	file:
 hlist_rotate_right	search.c	/^hlist_rotate_right(anchor, n)$/;"	f	file:
-hnext	ch.c	/^	struct bufnode *hnext, *hprev;$/;"	m	struct:bufnode	typeref:struct:bufnode::bufnode	file:
+hnext	ch.c	/^	struct bufnode *hnext, *hprev;$/;"	m	struct:bufnode	typeref:struct:bufnode::	file:
 hold_ifile	ifile.c	/^hold_ifile(ifile, incr)$/;"	f
 home	screen.c	/^home()$/;"	f
 homefile	filename.c	/^homefile(filename)$/;"	f
@@ -1169,8 +634,8 @@ is_utf8_well_formed	charset.c	/^is_utf8_well_formed(ss, slen)$/;"	f
 is_wide_char	charset.c	/^is_wide_char(ch)$/;"	f
 isatty	os.c	/^isatty(f)$/;"	f
 isoptpending	option.c	/^isoptpending()$/;"	f
-isoptstring	main.c	142;"	d	file:
-isoptstring	main.c	151;"	d	file:
+isoptstring	main.c	143;"	d	file:
+isoptstring	main.c	152;"	d	file:
 j_optname	opttbl.c	/^static struct optname j_optname      = { "jump-target",          NULL };$/;"	v	typeref:struct:optname	file:
 jump_back	jump.c	/^jump_back(linenum)$/;"	f
 jump_forw	jump.c	/^jump_forw()$/;"	f
@@ -1187,11 +652,11 @@ keyRecord	screen.c	/^struct keyRecord$/;"	s	file:
 keypad_optname	opttbl.c	/^static struct optname keypad_optname = { "no-keypad",            NULL };$/;"	v	typeref:struct:optname	file:
 kill_char	screen.c	/^public int kill_char;		\/* The user's line-kill char *\/$/;"	v
 know_dumb	opttbl.c	/^public int know_dumb;		\/* Don't complain about dumb terminals *\/$/;"	v
-last	less.h	/^	LWCHAR first, last;$/;"	m	struct:wchar_range
+l__optname	opttbl.c	/^static struct optname l__optname     = { "save-line-num",        NULL };$/;"	v	typeref:struct:optname	file:
 last_component	filename.c	/^last_component(name)$/;"	f
 last_overstrike	line.c	/^static int last_overstrike = AT_NORMAL;$/;"	v	file:
 lastmark	mark.c	/^lastmark()$/;"	f
-left	search.c	/^	struct hilite_node *left;$/;"	m	struct:hilite_node	typeref:struct:hilite_node::hilite_node	file:
+left	search.c	/^	struct hilite_node *left;$/;"	m	struct:hilite_node	typeref:struct:hilite_node::	file:
 len_cmdbuf	cmdbuf.c	/^len_cmdbuf()$/;"	f
 less_is_more	opttbl.c	/^public int less_is_more = 0;	\/* Make compatible with POSIX more *\/$/;"	v
 less_printf	output.c	/^less_printf(fmt, parg)$/;"	f	file:
@@ -1206,19 +671,17 @@ linenum	lesskey.c	/^int linenum;$/;"	v
 linenum_info	linenum.c	/^struct linenum_info$/;"	s	file:
 linenums	opttbl.c	/^public int linenums;		\/* Use line numbers *\/$/;"	v
 link_ifile	ifile.c	/^link_ifile(p, prev)$/;"	f	file:
-list_ecmd_tables	decode.c	/^static struct tablelist *list_ecmd_tables = NULL;$/;"	v	typeref:struct:tablelist	file:
-list_fcmd_tables	decode.c	/^static struct tablelist *list_fcmd_tables = NULL;$/;"	v	typeref:struct:tablelist	file:
-list_sysvar_tables	decode.c	/^static struct tablelist *list_sysvar_tables = NULL;$/;"	v	typeref:struct:tablelist	file:
-list_var_tables	decode.c	/^static struct tablelist *list_var_tables = NULL;$/;"	v	typeref:struct:tablelist	file:
+list_ecmd_tables	decode.c	/^static struct tablelist *list_ecmd_tables = NULL;$/;"	v	typeref:struct:	file:
+list_fcmd_tables	decode.c	/^static struct tablelist *list_fcmd_tables = NULL;$/;"	v	typeref:struct:	file:
+list_sysvar_tables	decode.c	/^static struct tablelist *list_sysvar_tables = NULL;$/;"	v	typeref:struct:	file:
+list_var_tables	decode.c	/^static struct tablelist *list_var_tables = NULL;$/;"	v	typeref:struct:	file:
 literal	cmdbuf.c	/^static int literal;		\/* Next input char should not be interpreted *\/$/;"	v	file:
 lmargin	line.c	/^static int lmargin;		\/* Left margin *\/$/;"	v	file:
-ln	less.h	/^	int ln;$/;"	m	struct:scrpos
 logfile	main.c	/^public int	logfile = -1;$/;"	v
 longish	linenum.c	/^longish()$/;"	f	file:
 longloopmessage	linenum.c	/^longloopmessage()$/;"	f	file:
-lookaside	search.c	/^	struct hilite_node *lookaside;$/;"	m	struct:hilite_tree	typeref:struct:hilite_tree::hilite_node	file:
+lookaside	search.c	/^	struct hilite_node *lookaside;$/;"	m	struct:hilite_tree	typeref:struct:hilite_tree::	file:
 loopcount	linenum.c	/^static int loopcount;$/;"	v	file:
-loption	option.h	/^struct loption$/;"	s
 lower_left	screen.c	/^lower_left()$/;"	f
 lstrtol	lessecho.c	/^lstrtol(s, radix, pend)$/;"	f	file:
 lsystem	lsystem.c	/^lsystem(cmd, donemsg)$/;"	f
@@ -1226,23 +689,16 @@ ltget_env	screen.c	/^ltget_env(capname)$/;"	f	file:
 ltgetflag	screen.c	/^ltgetflag(capname)$/;"	f	file:
 ltgetnum	screen.c	/^ltgetnum(capname)$/;"	f	file:
 ltgetstr	screen.c	/^ltgetstr(capname, pp)$/;"	f	file:
-m_ifile	less.h	/^	IFILE m_ifile;$/;"	m	struct:mark
 m_optname	opttbl.c	/^static struct optname m_optname      = { "long-prompt",          NULL };$/;"	v	typeref:struct:optname	file:
 m_proto	prompt.c	/^static constant char m_proto[] =$/;"	v	file:
-m_scrpos	less.h	/^	struct scrpos m_scrpos;$/;"	m	struct:mark	typeref:struct:mark::scrpos
 main	lessecho.c	/^main(argc, argv)$/;"	f
 main	lesskey.c	/^main(argc, argv)$/;"	f
 main	main.c	/^main(argc, argv)$/;"	f
-main	mkutable	/^sub main {$/;"	s
 main	scrsize.c	/^int main(argc, argv)$/;"	f
 make_display	command.c	/^make_display()$/;"	f	file:
 make_file_private	cmdbuf.c	/^make_file_private(f)$/;"	f	file:
 make_tempname	cmdbuf.c	/^make_tempname(filename)$/;"	f	file:
 maketagent	tags.c	/^maketagent(name, file, linenum, pattern, endline)$/;"	f	file:
-mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
-manext	Makefile	/^manext = 1$/;"	m
-manprefix	Makefile	/^manprefix = $/;"	m
-mark	less.h	/^struct mark $/;"	s
 markpos	mark.c	/^markpos(c)$/;"	f
 marks	mark.c	/^static struct mark marks[NMARKS];$/;"	v	typeref:struct:mark	file:
 match	pattern.c	/^match(pattern, pattern_len, buf, buf_len, pfound, pend)$/;"	f	file:
@@ -1261,7 +717,6 @@ mca_opt_nonfirst_char	command.c	/^mca_opt_nonfirst_char(c)$/;"	f	file:
 mca_opt_toggle	command.c	/^mca_opt_toggle()$/;"	f	file:
 mca_search	command.c	/^mca_search()$/;"	f	file:
 mca_search_char	command.c	/^mca_search_char(c)$/;"	f	file:
-memcpy	less.h	187;"	d
 memcpy	os.c	/^memcpy(dst, src, len)$/;"	f
 message	prompt.c	/^static char message[PROMPT_SIZE];$/;"	v	file:
 meta_escape	lessecho.c	/^static char *meta_escape = "\\\\";$/;"	v	file:
@@ -1278,7 +733,7 @@ ml_search	cmdbuf.c	/^public void *ml_search = (void *) &mlist_search;$/;"	v
 ml_search	cmdbuf.c	/^public void *ml_search = (void *)1;$/;"	v
 ml_shell	cmdbuf.c	/^public void *ml_shell = (void *) &mlist_shell;$/;"	v
 ml_shell	cmdbuf.c	/^public void *ml_shell = (void *)3;$/;"	v
-mlist	cmdbuf.c	/^	struct mlist *mlist;$/;"	m	struct:save_ctx	typeref:struct:save_ctx::mlist	file:
+mlist	cmdbuf.c	/^	struct mlist *mlist;$/;"	m	struct:save_ctx	typeref:struct:save_ctx::	file:
 mlist	cmdbuf.c	/^struct mlist$/;"	s	file:
 mlist_examine	cmdbuf.c	/^struct mlist mlist_examine = $/;"	v	typeref:struct:mlist
 mlist_search	cmdbuf.c	/^struct mlist mlist_search =  $/;"	v	typeref:struct:mlist
@@ -1294,18 +749,18 @@ n_optname	opttbl.c	/^static struct optname n_optname      = { "line-numbers",   
 name	charset.c	/^	char *name;$/;"	m	struct:charset	file:
 name	charset.c	/^	char *name;$/;"	m	struct:cs_alias	file:
 namelogfile	main.c	/^public char *	namelogfile = NULL;$/;"	v
-names	lesskey.c	/^	struct cmdname *names;$/;"	m	struct:table	typeref:struct:table::cmdname	file:
+names	lesskey.c	/^	struct cmdname *names;$/;"	m	struct:table	typeref:struct:table::	file:
 nbufs	ch.c	/^	int nbufs;$/;"	m	struct:filestate	file:
 need_clr	output.c	/^public int need_clr;$/;"	v
 new_file	main.c	/^public int	new_file;$/;"	v
 new_ifile	ifile.c	/^new_ifile(filename, prev)$/;"	f	file:
 new_lesskey	decode.c	/^new_lesskey(buf, len, sysvar)$/;"	f	file:
-next	ch.c	/^	struct bufnode *next, *prev;$/;"	m	struct:bufnode	typeref:struct:bufnode::bufnode	file:
-next	cmdbuf.c	/^	struct mlist *next;$/;"	m	struct:mlist	typeref:struct:mlist::mlist	file:
-next	linenum.c	/^	struct linenum_info *next;	\/* Link to next in the list *\/$/;"	m	struct:linenum_info	typeref:struct:linenum_info::linenum_info	file:
-next	search.c	/^	struct hilite_node *next;$/;"	m	struct:hilite_node	typeref:struct:hilite_node::hilite_node	file:
-next	search.c	/^	struct hilite_storage *next;$/;"	m	struct:hilite_storage	typeref:struct:hilite_storage::hilite_storage	file:
-next	tags.c	/^	struct tag *next, *prev; \/* List links *\/$/;"	m	struct:tag	typeref:struct:tag::tag	file:
+next	ch.c	/^	struct bufnode *next, *prev;$/;"	m	struct:bufnode	typeref:struct:bufnode::	file:
+next	cmdbuf.c	/^	struct mlist *next;$/;"	m	struct:mlist	typeref:struct:mlist::	file:
+next	linenum.c	/^	struct linenum_info *next;	\/* Link to next in the list *\/$/;"	m	struct:linenum_info	typeref:struct:linenum_info::	file:
+next	search.c	/^	struct hilite_node *next;$/;"	m	struct:hilite_node	typeref:struct:hilite_node::	file:
+next	search.c	/^	struct hilite_storage *next;$/;"	m	struct:hilite_storage	typeref:struct:hilite_storage::	file:
+next	tags.c	/^	struct tag *next, *prev; \/* List links *\/$/;"	m	struct:tag	typeref:struct:tag::	file:
 next_compl	cmdbuf.c	/^next_compl(action, prev)$/;"	f	file:
 next_ifile	ifile.c	/^next_ifile(h)$/;"	f
 next_unfiltered	search.c	/^next_unfiltered(pos)$/;"	f
@@ -1318,7 +773,7 @@ no_back_scroll	forwback.c	/^public int no_back_scroll = 0;$/;"	v
 no_init	opttbl.c	/^public int no_init;		\/* Disable sending ti\/te termcap strings *\/$/;"	v
 no_keypad	opttbl.c	/^public int no_keypad;		\/* Disable sending ks\/ke termcap strings *\/$/;"	v
 node	ch.c	/^	struct bufnode node;$/;"	m	struct:buf	typeref:struct:buf::bufnode	file:
-nodes	search.c	/^	struct hilite_node *nodes;$/;"	m	struct:hilite_storage	typeref:struct:hilite_storage::hilite_node	file:
+nodes	search.c	/^	struct hilite_node *nodes;$/;"	m	struct:hilite_storage	typeref:struct:hilite_storage::	file:
 nopendopt	option.c	/^nopendopt()$/;"	f
 nostring	option.c	/^nostring(printopt)$/;"	f	file:
 not_in_completion	cmdbuf.c	800;"	d	file:
@@ -1332,19 +787,12 @@ number	command.c	/^static LINENUM number;		\/* The number typed by the user *\/$
 o_optname	opttbl.c	/^static struct optname o_optname      = { "log-file",             NULL };$/;"	v	typeref:struct:optname	file:
 ob	output.c	/^static char *ob = obuf;$/;"	v	file:
 obuf	output.c	/^static char obuf[OUTBUF_SIZE];$/;"	v	file:
-odefault	option.h	/^	int odefault;		\/* Default value *\/$/;"	m	struct:loption
-odesc	option.h	/^	char *odesc[3];		\/* Description of each value *\/$/;"	m	struct:loption
 offset	ch.c	/^	unsigned int offset;$/;"	m	struct:filestate	file:
-ofunc	option.h	/^	void (*ofunc) LESSPARAMS ((int, char*)); \/* Pointer to special handling function *\/$/;"	m	struct:loption
 old_ifile	main.c	/^public IFILE	old_ifile = NULL_IFILE;$/;"	v
 old_lesskey	decode.c	/^old_lesskey(buf, len)$/;"	f	file:
 oldbot	opttbl.c	/^public int oldbot;		\/* Old bottom of screen behavior {{REMOVE}} *\/$/;"	v
 oldbot_optname	opttbl.c	/^static struct optname oldbot_optname = { "old-bot",              NULL };$/;"	v	typeref:struct:optname	file:
-oletter	option.h	/^	char oletter;		\/* The controlling letter (a-z) *\/$/;"	m	struct:loption
 oname	charset.c	/^	char *oname;$/;"	m	struct:cs_alias	file:
-oname	option.h	/^	char *oname;            \/* Long (GNU-style) option name *\/$/;"	m	struct:optname
-onames	option.h	/^	struct optname *onames; \/* Long (GNU-style) option name *\/$/;"	m	struct:loption	typeref:struct:loption::optname
-onext	option.h	/^	struct optname *onext;  \/* List of synonymous option names *\/$/;"	m	struct:optname	typeref:struct:optname::optname
 onscreen	position.c	/^onscreen(pos)$/;"	f
 open_altfile	filename.c	/^open_altfile(filename, pf, pfd)$/;"	f
 open_getchr	ttyin.c	/^open_getchr()$/;"	f
@@ -1376,23 +824,15 @@ opt_x	optfunc.c	/^opt_x(type, s)$/;"	f
 optflag	command.c	/^static int optflag;$/;"	v	file:
 optgetname	command.c	/^static int optgetname;$/;"	v	file:
 option	opttbl.c	/^static struct loption option[] =$/;"	v	typeref:struct:loption	file:
-optname	option.h	/^struct optname$/;"	s
 optstring	option.c	/^optstring(s, p_str, printopt, validchars)$/;"	f	file:
 os9_signal	os.c	/^os9_signal(type, handler)$/;"	f
 ospeed	screen.c	/^short ospeed;$/;"	v
-otype	option.h	/^	int otype;		\/* Type of the option *\/$/;"	m	struct:loption
 outfile	lesskey.c	/^char *outfile = NULL ;$/;"	v
-output	mkutable	/^sub output {$/;"	s
-ovar	option.h	/^	int *ovar;		\/* Pointer to the associated variable *\/$/;"	m	struct:loption
 overstrike	line.c	/^static int overstrike;		\/* Next char should overstrike previous char *\/$/;"	v	file:
 p_flag	charset.c	/^	int *p_flag;$/;"	m	struct:charset	file:
-p_int	less.h	/^	int p_int;$/;"	m	union:parg
-p_linenum	less.h	/^	LINENUM p_linenum;$/;"	m	union:parg
 p_optname	opttbl.c	/^static struct optname p_optname      = { "pattern",              NULL };$/;"	v	typeref:struct:optname	file:
-p_string	less.h	/^	char *p_string;$/;"	m	union:parg
 pappend	line.c	/^pappend(c, pos)$/;"	f
-parent	search.c	/^	struct hilite_node *parent;$/;"	m	struct:hilite_node	typeref:struct:hilite_node::hilite_node	file:
-parg	less.h	/^typedef union parg$/;"	u
+parent	search.c	/^	struct hilite_node *parent;$/;"	m	struct:hilite_node	typeref:struct:hilite_node::	file:
 parse_args	lesskey.c	/^parse_args(argc, argv)$/;"	f
 parse_cmdline	lesskey.c	/^parse_cmdline(p)$/;"	f
 parse_line	lesskey.c	/^parse_line(line)$/;"	f
@@ -1403,7 +843,7 @@ pdone	line.c	/^pdone(endline, chopped, forw)$/;"	f
 peekcc	command.c	/^peekcc()$/;"	f
 pendc	line.c	/^static LWCHAR pendc;$/;"	v	file:
 pending_scancode	screen.c	/^static int pending_scancode = 0;$/;"	v	file:
-pendopt	option.c	/^static struct loption *pendopt;$/;"	v	typeref:struct:loption	file:
+pendopt	option.c	/^static struct loption *pendopt;$/;"	v	typeref:struct:	file:
 pendpos	line.c	/^static POSITION pendpos;$/;"	v	file:
 percent_pos	os.c	/^percent_pos(pos, percent, fraction)$/;"	f
 percentage	os.c	/^percentage(num, den)$/;"	f
@@ -1414,7 +854,6 @@ pipec	command.c	/^static char pipec;$/;"	v	file:
 plinenum	line.c	/^plinenum(pos)$/;"	f
 plusoption	option.c	/^public int plusoption = FALSE;$/;"	v
 pool	linenum.c	/^static struct linenum_info pool[NPOOL];	\/* The pool itself *\/$/;"	v	typeref:struct:linenum_info	file:
-pos	less.h	/^	POSITION pos;$/;"	m	struct:scrpos
 pos	linenum.c	/^	POSITION pos;			\/* File position *\/$/;"	m	struct:linenum_info	file:
 pos_clear	position.c	/^pos_clear()$/;"	f
 pos_init	position.c	/^pos_init()$/;"	f
@@ -1428,14 +867,13 @@ pr_type	opttbl.c	/^public int pr_type;		\/* Type of prompt (short, medium, long)
 pr_usage	lessecho.c	/^pr_usage()$/;"	f	file:
 pr_version	lessecho.c	/^pr_version()$/;"	f	file:
 prchar	charset.c	/^prchar(c)$/;"	f
-prefix	Makefile	/^prefix = \/usr\/local$/;"	m
 prep_endpos	search.c	/^static POSITION prep_endpos;$/;"	v	file:
 prep_hilite	search.c	/^prep_hilite(spos, epos, maxlines)$/;"	f
 prep_startpos	search.c	/^static POSITION prep_startpos;$/;"	v	file:
 prev	ch.c	/^	struct bufnode *next, *prev;$/;"	m	struct:bufnode	typeref:struct:bufnode::	file:
-prev	cmdbuf.c	/^	struct mlist *prev;$/;"	m	struct:mlist	typeref:struct:mlist::mlist	file:
-prev	linenum.c	/^	struct linenum_info *prev;	\/* Line to previous in the list *\/$/;"	m	struct:linenum_info	typeref:struct:linenum_info::linenum_info	file:
-prev	search.c	/^	struct hilite_node *prev;$/;"	m	struct:hilite_node	typeref:struct:hilite_node::hilite_node	file:
+prev	cmdbuf.c	/^	struct mlist *prev;$/;"	m	struct:mlist	typeref:struct:mlist::	file:
+prev	linenum.c	/^	struct linenum_info *prev;	\/* Line to previous in the list *\/$/;"	m	struct:linenum_info	typeref:struct:linenum_info::	file:
+prev	search.c	/^	struct hilite_node *prev;$/;"	m	struct:hilite_node	typeref:struct:hilite_node::	file:
 prev	tags.c	/^	struct tag *next, *prev; \/* List links *\/$/;"	m	struct:tag	typeref:struct:tag::	file:
 prev_ifile	ifile.c	/^prev_ifile(h)$/;"	f
 prev_pattern	search.c	/^prev_pattern(info)$/;"	f	file:
@@ -1444,18 +882,15 @@ prevgtag	tags.c	/^prevgtag()$/;"	f	file:
 prevtag	tags.c	/^prevtag(n)$/;"	f
 prewind	line.c	/^prewind()$/;"	f
 progname	main.c	/^public char *	progname;$/;"	v
-program	regexp.h	/^	char program[1];	\/* Unwarranted chumminess with compiler. *\/$/;"	m	struct:regexp
 prompt	command.c	/^prompt()$/;"	f	file:
 prompt_col	cmdbuf.c	/^static int prompt_col;		\/* Column of cursor just after prompt *\/$/;"	v	file:
 propt	option.c	/^propt(c)$/;"	f
 protochar	prompt.c	/^protochar(c, where, iseditproto)$/;"	f	file:
-prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
 prproto	prompt.c	/^public char *prproto[3];$/;"	v
 prutfchar	charset.c	/^prutfchar(ch)$/;"	f
 pshift	line.c	/^pshift(shift)$/;"	f	file:
 pshift_all	line.c	/^pshift_all()$/;"	f
 psignals	signal.c	/^psignals()$/;"	f
-public	less.h	61;"	d
 put_line	output.c	/^put_line()$/;"	f
 put_wchar	charset.c	/^put_wchar(pp, ch)$/;"	f
 putbs	screen.c	/^putbs()$/;"	f
@@ -1486,7 +921,6 @@ red	search.c	/^	int red;$/;"	m	struct:hilite_node	file:
 reedit_ifile	edit.c	/^reedit_ifile(save_ifile)$/;"	f
 reg	regexp.c	/^reg(paren, flagp)$/;"	f	file:
 reg_show_error	search.c	/^public int reg_show_error = 1;$/;"	v
-reganch	regexp.h	/^	char reganch;		\/* Internal use only. *\/$/;"	m	struct:regexp
 regatom	regexp.c	/^regatom(flagp)$/;"	f	file:
 regbol	regexp.c	/^static char *regbol;		\/* Beginning of input, for ^ check. *\/$/;"	v	file:
 regbranch	regexp.c	/^regbranch(flagp)$/;"	f	file:
@@ -1499,13 +933,9 @@ regendp	regexp.c	/^static char **regendp;		\/* Ditto for endp. *\/$/;"	v	file:
 regerror	search.c	/^regerror(s) $/;"	f
 regexec	regexp.c	/^regexec(prog, string)$/;"	f
 regexec2	regexp.c	/^regexec2(prog, string, notbol)$/;"	f
-regexp	regexp.h	/^typedef struct regexp {$/;"	s
-regexp	regexp.h	/^} regexp;$/;"	t	typeref:struct:regexp
 reginput	regexp.c	/^static char *reginput;		\/* String-input pointer. *\/$/;"	v	file:
 reginsert	regexp.c	/^reginsert(op, opnd)$/;"	f	file:
 regmatch	regexp.c	/^regmatch(prog)$/;"	f	file:
-regmlen	regexp.h	/^	int regmlen;		\/* Internal use only. *\/$/;"	m	struct:regexp
-regmust	regexp.h	/^	char *regmust;		\/* Internal use only. *\/$/;"	m	struct:regexp
 regnarrate	regexp.c	/^int regnarrate = 0;$/;"	v
 regnext	regexp.c	/^regnext(p)$/;"	f	file:
 regnode	regexp.c	/^regnode(op)$/;"	f	file:
@@ -1516,17 +946,16 @@ regpiece	regexp.c	/^regpiece(flagp)$/;"	f	file:
 regprop	regexp.c	/^regprop(op)$/;"	f	file:
 regrepeat	regexp.c	/^regrepeat(p)$/;"	f	file:
 regsize	regexp.c	/^static long regsize;		\/* Code size. *\/$/;"	v	file:
-regstart	regexp.h	/^	char regstart;		\/* Internal use only. *\/$/;"	m	struct:regexp
 regstartp	regexp.c	/^static char **regstartp;	\/* Pointer to startp array. *\/$/;"	v	file:
 regtail	regexp.c	/^regtail(p, val)$/;"	f	file:
 regtry	regexp.c	/^regtry(prog, string)$/;"	f	file:
 reopen_curr_ifile	edit.c	/^reopen_curr_ifile()$/;"	f
 repaint	jump.c	/^repaint()$/;"	f
 repaint_hilite	search.c	/^repaint_hilite(on)$/;"	f
-right	search.c	/^	struct hilite_node *right;$/;"	m	struct:hilite_node	typeref:struct:hilite_node::hilite_node	file:
+right	search.c	/^	struct hilite_node *right;$/;"	m	struct:hilite_node	typeref:struct:hilite_node::	file:
 right_column	line.c	/^static int right_column;$/;"	v	file:
 right_curr	line.c	/^static int right_curr;$/;"	v	file:
-root	search.c	/^	struct hilite_node *root;$/;"	m	struct:hilite_tree	typeref:struct:hilite_tree::hilite_node	file:
+root	search.c	/^	struct hilite_node *root;$/;"	m	struct:hilite_tree	typeref:struct:hilite_tree::	file:
 rrshift	line.c	/^rrshift()$/;"	f
 rscroll_attr	opttbl.c	/^public int rscroll_attr;	\/* Attribute of rscroll_char *\/$/;"	v
 rscroll_char	opttbl.c	/^public LWCHAR rscroll_char;	\/* Char which marks chopped lines with -S *\/$/;"	v
@@ -1540,6 +969,8 @@ save_cmdhist	cmdbuf.c	/^save_cmdhist()$/;"	f
 save_ctx	cmdbuf.c	/^struct save_ctx$/;"	s	file:
 save_curr_ifile	edit.c	/^save_curr_ifile()$/;"	f
 save_hshift	command.c	/^static int save_hshift;$/;"	v	file:
+save_linenum	main.c	/^int save_linenum; \/* Save line number when exiting *\/$/;"	v
+save_linenum	opttbl.c	/^public int save_linenum;	\/* Save line number on exit *\/$/;"	v
 sc_addline	screen.c	/^	*sc_addline,		\/* Add line, scroll down following lines *\/$/;"	v	file:
 sc_b_in	screen.c	/^	*sc_b_in,		\/* Enter bold mode *\/$/;"	v	file:
 sc_b_out	screen.c	/^	*sc_b_out,		\/* Exit bold mode *\/$/;"	v	file:
@@ -1568,7 +999,6 @@ sc_width	screen.c	/^public int sc_width, sc_height;	\/* Height & width of screen
 scan	screen.c	/^	int scan;$/;"	m	struct:keyRecord	file:
 scan_option	option.c	/^scan_option(s)$/;"	f
 screen_trashed	forwback.c	/^public int screen_trashed;$/;"	v
-scrpos	less.h	/^struct scrpos$/;"	s
 scrsize	screen.c	/^scrsize()$/;"	f
 search	search.c	/^search(search_type, pattern, n)$/;"	f
 search_info	search.c	/^static struct pattern_info search_info;$/;"	v	typeref:struct:pattern_info	file:
@@ -1602,8 +1032,6 @@ shellcmd	filename.c	/^shellcmd(cmd)$/;"	f	file:
 shift_count	opttbl.c	/^public int shift_count;		\/* Number of positions to shift horizontally *\/$/;"	v
 shift_count_fraction	opttbl.c	/^public long shift_count_fraction = -1;$/;"	v
 show_attn	opttbl.c	/^public int show_attn;		\/* Hilite first unread line *\/$/;"	v
-sigemptyset	less.h	492;"	d
-sigemptyset	less.h	493;"	d
 sigs	signal.c	/^public int sigs;$/;"	v
 sindex_from_sline	position.c	/^sindex_from_sline(sline)$/;"	f
 size_helpdata	help.c	/^constant int size_helpdata = sizeof(helpdata) - 1;$/;"	v
@@ -1617,18 +1045,15 @@ so_bg_color	screen.c	/^public int so_bg_color;$/;"	v
 so_e_width	screen.c	/^public int so_s_width, so_e_width;	\/* Printing width of standout seq *\/$/;"	v
 so_fg_color	screen.c	/^public int so_fg_color;		\/* Color of standout text *\/$/;"	v
 so_s_width	screen.c	/^public int so_s_width, so_e_width;	\/* Printing width of standout seq *\/$/;"	v
-spare	linenum.c	/^static struct linenum_info *spare;		\/* We always keep one spare entry *\/$/;"	v	typeref:struct:linenum_info	file:
+spare	linenum.c	/^static struct linenum_info *spare;		\/* We always keep one spare entry *\/$/;"	v	typeref:struct:	file:
 special_key_str	screen.c	/^special_key_str(key)$/;"	f
 sprefix	main.c	/^sprefix(ps, s, uppercase)$/;"	f
 squeeze	opttbl.c	/^public int squeeze;		\/* Squeeze multiple blank lines into one *\/$/;"	v
 squish_check	forwback.c	/^squish_check()$/;"	f
 squished	forwback.c	/^public int squished;$/;"	v
-srcdir	Makefile	/^srcdir = .$/;"	m
 start_attnpos	main.c	/^public POSITION	start_attnpos = NULL_POSITION;$/;"	v
 start_mca	command.c	/^start_mca(action, prompt, mlist, cmdflags)$/;"	f	file:
-start_run	mkutable	/^sub start_run {$/;"	s
 startime	linenum.c	/^static time_type startime;$/;"	v	file:
-startp	regexp.h	/^	char *startp[NSUBEXP];$/;"	m	struct:regexp
 status_col	opttbl.c	/^public int status_col;		\/* Display a status column *\/$/;"	v
 step_char	charset.c	/^step_char(pp, dir, limit)$/;"	f
 stop	signal.c	/^stop(type)$/;"	f	file:
@@ -1641,18 +1066,15 @@ strchr	os.c	/^strchr(s, c)$/;"	f
 strcspn	regexp.c	/^strcspn(s1, s2)$/;"	f	file:
 strerror	os.c	/^strerror(err)$/;"	f	file:
 string	cmdbuf.c	/^	char *string;$/;"	m	struct:mlist	file:
-string	less.h	/^	char *string;$/;"	m	struct:textlist
 swindow	opttbl.c	/^public int swindow;		\/* Size of scrolling window *\/$/;"	v
 sy_bg_color	screen.c	/^static int sy_bg_color;$/;"	v	file:
 sy_fg_color	screen.c	/^static int sy_fg_color;		\/* Color of system text (before less) *\/$/;"	v	file:
 sync_logfile	ch.c	/^sync_logfile()$/;"	f
-sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
 t_end	decode.c	/^	char *t_end;$/;"	m	struct:tablelist	file:
-t_next	decode.c	/^	struct tablelist *t_next;$/;"	m	struct:tablelist	typeref:struct:tablelist::tablelist	file:
+t_next	decode.c	/^	struct tablelist *t_next;$/;"	m	struct:tablelist	typeref:struct:tablelist::	file:
 t_optname	opttbl.c	/^static struct optname t_optname      = { "tag",                  NULL };$/;"	v	typeref:struct:optname	file:
 t_start	decode.c	/^	char *t_start;$/;"	m	struct:tablelist	file:
 tabdefault	line.c	/^public int tabdefault = 8;	\/* Default repeated tabstops *\/$/;"	v
-table	less.h	/^	struct wchar_range *table;$/;"	m	struct:wchar_range_table	typeref:struct:wchar_range_table::wchar_range
 table	lesskey.c	/^struct table$/;"	s	file:
 table	position.c	/^static POSITION *table = NULL;	\/* The position table *\/$/;"	v	file:
 table_size	position.c	/^static int table_size;$/;"	v	file:
@@ -1672,18 +1094,15 @@ tags	tags.c	/^public char *tags = ztags;$/;"	v
 tagsearch	tags.c	/^tagsearch()$/;"	f
 terminate	signal.c	/^terminate(type)$/;"	f	file:
 text	search.c	/^	char* text;$/;"	m	struct:pattern_info	file:
-textlist	less.h	/^struct textlist$/;"	s
-thisfile	ch.c	/^static struct filestate *thisfile;$/;"	v	typeref:struct:filestate	file:
+thisfile	ch.c	/^static struct filestate *thisfile;$/;"	v	typeref:struct:	file:
 tilde_optname	opttbl.c	/^static struct optname tilde_optname  = { "tilde",                NULL };$/;"	v	typeref:struct:optname	file:
-time_type	less.h	529;"	d
-time_type	less.h	531;"	d
 tk_ipoint	cmdbuf.c	/^static char *tk_ipoint;$/;"	v	file:
 tk_original	cmdbuf.c	/^static char *tk_original;$/;"	v	file:
 tk_text	cmdbuf.c	/^static char *tk_text;$/;"	v	file:
 tk_tlist	cmdbuf.c	/^static struct textlist tk_tlist;$/;"	v	typeref:struct:textlist	file:
 tk_trial	cmdbuf.c	/^static char *tk_trial = NULL;$/;"	v	file:
-tl_first	tags.c	/^	struct tag *tl_first;$/;"	m	struct:taglist	typeref:struct:taglist::tag	file:
-tl_last	tags.c	/^	struct tag *tl_last;$/;"	m	struct:taglist	typeref:struct:taglist::tag	file:
+tl_first	tags.c	/^	struct tag *tl_first;$/;"	m	struct:taglist	typeref:struct:taglist::	file:
+tl_last	tags.c	/^	struct tag *tl_last;$/;"	m	struct:taglist	typeref:struct:taglist::	file:
 tmodes	screen.c	/^tmodes(incap, outcap, instr, outstr, def_instr, def_outstr, spp)$/;"	f	file:
 toggle_option	option.c	/^toggle_option(o, lower, s, how_toggle)$/;"	f
 top_scroll	opttbl.c	/^public int top_scroll;		\/* Repaint screen from top?$/;"	v
@@ -1694,7 +1113,7 @@ twiddle	opttbl.c	/^public int twiddle;             \/* Show tildes after EOF *\/
 u_interrupt	signal.c	/^u_interrupt(type)$/;"	f	file:
 u_optname	opttbl.c	/^static struct optname u_optname      = { "underline-special",    NULL };$/;"	v	typeref:struct:optname	file:
 ug_char	command.c	/^	LWCHAR ug_char;$/;"	m	struct:ungot	file:
-ug_next	command.c	/^	struct ungot *ug_next;$/;"	m	struct:ungot	typeref:struct:ungot::ungot	file:
+ug_next	command.c	/^	struct ungot *ug_next;$/;"	m	struct:ungot	typeref:struct:ungot::	file:
 ul_bg_color	screen.c	/^public int ul_bg_color;$/;"	v
 ul_e_width	screen.c	/^public int ul_s_width, ul_e_width;	\/* Printing width of underline seq *\/$/;"	v
 ul_fg_color	screen.c	/^public int ul_fg_color;		\/* Color of underlined text *\/$/;"	v
@@ -1703,14 +1122,13 @@ uncompile_pattern	pattern.c	/^uncompile_pattern(pattern)$/;"	f
 undo_search	search.c	/^undo_search()$/;"	f
 ungetcc	command.c	/^ungetcc(c)$/;"	f
 ungetsc	command.c	/^ungetsc(s)$/;"	f
-ungot	command.c	/^static struct ungot* ungot = NULL;$/;"	v	typeref:struct:ungot	file:
+ungot	command.c	/^static struct ungot* ungot = NULL;$/;"	v	typeref:struct:	file:
 ungot	command.c	/^struct ungot {$/;"	s	file:
 unlink_ifile	ifile.c	/^unlink_ifile(p)$/;"	f	file:
 unmark	mark.c	/^unmark(ifile)$/;"	f
 unsave_ifile	edit.c	/^unsave_ifile(save_ifile)$/;"	f
 updown_match	cmdbuf.c	/^static int updown_match = -1;	\/* Prefix length in up\/down movement *\/$/;"	v	file:
 usage	lesskey.c	/^usage()$/;"	f
-usage	mkutable	/^   usage: mkutable [-n] [-f#] type... [--] [<] UnicodeData.txt$/;"	l
 use_backslash_optname	opttbl.c	/^static struct optname use_backslash_optname = { "use-backslash", NULL };$/;"	v	typeref:struct:optname	file:
 use_lessopen	opttbl.c	/^public int use_lessopen;	\/* Use the LESSOPEN filter *\/$/;"	v
 use_logfile	edit.c	/^use_logfile(filename)$/;"	f
@@ -1726,13 +1144,10 @@ vbell	screen.c	/^vbell()$/;"	f
 version	lessecho.c	/^static char *version = "$Revision: 1.15 $";$/;"	v	file:
 version	version.c	/^char version[] = "530";$/;"	v
 videopages	screen.c	/^static int videopages;$/;"	v	file:
-void	less.h	53;"	d
 w_optname	opttbl.c	/^static struct optname w_optname      = { "hilite-unread",        NULL };$/;"	v	typeref:struct:optname	file:
 w_proto	prompt.c	/^static constant char w_proto[] =$/;"	v	file:
 wait_message	prompt.c	/^wait_message()$/;"	f
 wbreak_handler	signal.c	/^wbreak_handler(dwCtrlType)$/;"	f	file:
-wchar_range	less.h	/^struct wchar_range$/;"	s
-wchar_range_table	less.h	/^struct wchar_range_table $/;"	s
 werase_char	screen.c	/^public int werase_char;		\/* The user's word-erase char *\/$/;"	v
 wherechar	prompt.c	/^wherechar(p, wp)$/;"	f	file:
 whitescreen	screen.c	/^static WORD *whitescreen;$/;"	v	file:

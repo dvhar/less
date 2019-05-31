@@ -33,7 +33,7 @@ public int back_scroll;		/* Repaint screen on backwards movement */
 public int forw_scroll;		/* Repaint screen on forward movement */
 public int caseless;		/* Do "caseless" searches */
 public int linenums;		/* Use line numbers */
-public int save_line_num;	/* Save line number on exit */
+public int save_linenum;	/* Save line number on exit */
 public int autobuf;		/* Automatically allocate buffers as needed */
 public int bufspace;		/* Max buffer space per file (K) */
 public int ctldisp;		/* Send control chars to screen untranslated */
@@ -270,7 +270,7 @@ static struct loption option[] =
 		}
 	},
 	{ 'l', &l__optname,
-		BOOL, OPT_OFF, &save_line_num, NULL,
+		BOOL, OPT_OFF, &save_linenum, NULL,
 		{
 			"Exit without saving line number",
 			"Save line number when exiting",

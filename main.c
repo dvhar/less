@@ -59,7 +59,7 @@ extern int	missing_cap;
 extern int	know_dumb;
 extern int	pr_type;
 extern int	quit_if_one_screen;
-int save_line_num; /* Save line number when exiting */
+int save_linenum; /* Save line number when exiting */
 
 
 /*
@@ -420,9 +420,9 @@ quit(status)
 
 	//save current line number when exiting if -l and env variable
 	char * linepath = getenv("LESS_LINENUM");
-	if (save_line_num && linepath){
+	if (save_linenum && linepath){
 		FILE * linefile = fopen(linepath,"w");
-		fprintf(linefile, "%d\n", (int)currline(0));
+		fprintf(linefile, "%d\n", global_linenum);
 		fclose(linefile);
 	}
 

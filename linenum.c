@@ -273,12 +273,12 @@ find_linenum(pos)
 		/*
 		 * We're not using line numbers.
 		 */
-		return (0);
+		return (-10);
 	if (pos == NULL_POSITION)
 		/*
 		 * Caller doesn't know what he's talking about.
 		 */
-		return (0);
+		return (-20);
 	if (pos <= ch_zero())
 		/*
 		 * Beginning of file is always line number 1.
@@ -315,7 +315,7 @@ find_linenum(pos)
 		 */
 		p = p->prev;
 		if (ch_seek(p->pos))
-			return (0);
+			return (-30);
 		loopcount = 0;
 		for (linenum = p->line, cpos = p->pos;  cpos < pos;  linenum++)
 		{
@@ -325,10 +325,10 @@ find_linenum(pos)
 			cpos = forw_raw_line(cpos, (char **)NULL, (int *)NULL);
 			if (ABORT_SIGS()) {
 				abort_long();
-				return (0);
+				return (-40);
 			}
 			if (cpos == NULL_POSITION)
-				return (0);
+				return (-50);
 			longish();
 		}
 		/*
@@ -347,7 +347,7 @@ find_linenum(pos)
 		 * Go backward.
 		 */
 		if (ch_seek(p->pos))
-			return (0);
+			return (-60);
 		loopcount = 0;
 		for (linenum = p->line, cpos = p->pos;  cpos > pos;  linenum--)
 		{
@@ -357,10 +357,10 @@ find_linenum(pos)
 			cpos = back_raw_line(cpos, (char **)NULL, (int *)NULL);
 			if (ABORT_SIGS()) {
 				abort_long();
-				return (0);
+				return (-70);
 			}
 			if (cpos == NULL_POSITION)
-				return (0);
+				return (-80);
 			longish();
 		}
 		/*
@@ -449,6 +449,7 @@ find_pos(linenum)
  * The argument "where" tells which line is to be considered
  * the "current" line (e.g. TOP, BOTTOM, MIDDLE, etc).
  */
+int global_linenum = -1;
 	public LINENUM
 currline(where)
 	int where;
@@ -466,5 +467,8 @@ currline(where)
 	linenum = find_linenum(pos);
 	if (pos == len)
 		linenum--;
+    //save linenum at top of page
+	if (where != 0)
+		global_linenum = currline(0);
 	return (linenum);
 }

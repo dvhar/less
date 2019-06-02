@@ -468,7 +468,6 @@ currline(where)
 	if (pos == len)
 		linenum--;
     //save linenum at top of page
-	if (where != 0)
-		global_linenum = currline(0);
+    global_linenum = where==0? linenum : currline(0);
 	return (linenum);
 }

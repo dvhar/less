@@ -406,15 +406,14 @@ edit_ifile(ifile)
 		} else 
 		{
 			chflags |= CH_CANSEEK;
-			if (!force_open && !opened(ifile) && bin_file(f))
+			if (!force_open && !opened(ifile) && bin_file(f) && 0) //disabled because annoying
 			{
 				/*
 				 * Looks like a binary file.  
 				 * Ask user if we should proceed.
 				 */
 				parg.p_string = filename;
-				answer = query("\"%s\" may be a binary file.  See it anyway? ",
-					&parg);
+				answer = query("\"%s\" may be a binary file.  See it anyway? ", &parg);
 				if (answer != 'y' && answer != 'Y')
 				{
 					close(f);

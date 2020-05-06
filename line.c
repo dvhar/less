@@ -168,7 +168,7 @@ prewind()
 	mbc_buf_len = 0;
 	is_null_line = 0;
 	pendc = '\0';
-	lmargin = 0;
+	lmargin = new_lmargin >= 0 ? new_lmargin : 0;
 	if (status_col)
 		lmargin += 2;
 }

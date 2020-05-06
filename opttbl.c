@@ -22,6 +22,7 @@ public int quiet;		/* Should we suppress the audible bell? */
 public int how_search;		/* Where should forward searches start? */
 public int top_scroll;		/* Repaint screen from top?
 				   (alternative is scroll from bottom) */
+public int new_lmargin; /* left margin */
 public int pr_type;		/* Type of prompt (short, medium, long) */
 public int bs_mode;		/* How to process backspaces */
 public int know_dumb;		/* Don't complain about dumb terminals */
@@ -90,6 +91,7 @@ static struct optname K__optname     = { "quit-on-intr",         NULL };
 static struct optname l__optname     = { "save-line-num",        NULL };
 static struct optname L__optname     = { "no-lessopen",          NULL };
 static struct optname m_optname      = { "long-prompt",          NULL };
+static struct optname M_optname      = { "new-left-margin",      NULL };
 static struct optname n_optname      = { "line-numbers",         NULL };
 #if LOGFILE
 static struct optname o_optname      = { "log-file",             NULL };
@@ -138,6 +140,14 @@ static struct optname rscroll_optname = { "rscroll", NULL };
  */
 static struct loption option[] =
 {
+	{ 'M', &M_optname,
+		NUMBER, 0, &new_lmargin, NULL,
+		{
+			"left margin: ",
+			"left margin is %d",
+			NULL
+		}
+	},
 	{ 'a', &a_optname,
 		TRIPLE, OPT_ONPLUS, &how_search, NULL,
 		{
